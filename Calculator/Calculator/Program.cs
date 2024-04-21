@@ -4,7 +4,7 @@ class Calculator
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Простой калькулятор");
+        Console.WriteLine("Калькулятор");
         Console.WriteLine("Выберите операцию:" );
         Console.WriteLine("1 - Сложение");
         Console.WriteLine("2 - Вычитание");
