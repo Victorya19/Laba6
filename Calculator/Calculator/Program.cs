@@ -34,6 +34,10 @@ class Calculator
                 break;
             case 4:
                 result = num1 / num2;
+                if (num2 == 0)
+                    {
+                    Console.WriteLine("Деление на ноль невозможно. Попробуйте еще раз.");
+                }
                 break;
             default:
                 Console.WriteLine("Неверный выбор операции.");
