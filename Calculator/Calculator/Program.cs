@@ -41,5 +41,12 @@ class Calculator
         }
 
         Console.WriteLine("Результат: " + result);
+        Console.WriteLine("Желаете завершить работу программы? (Y / N)");
+        string exitChoice = Console.ReadLine().Trim().ToUpper();
+
+        if (exitChoice == "Y")
+            break;
+        else if (exitChoice != "N")
+            Console.WriteLine("Неверный вариант ответа. Продолжаем работу.");
     }
 }
